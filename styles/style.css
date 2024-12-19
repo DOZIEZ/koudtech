@@ -1,0 +1,121 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #160461;
+    height: 10vh;
+
+
+
+    /* background-color: rgba(30, 7, 36, 0.979); */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+nav {
+     /* Bleu sombre légèrement plus clair */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #ff6600; /* Orange vif */
+}
+
+/* Section des produits */
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ffffff;
+    /* height:40vh ; */
+}
+
+.product {
+    background-color: #e0e0e0;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 20vw;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* height: 40vh; */
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product h3 {
+    font-size: 1.2em;
+    color: #003366; /* Bleu sombre */
+}
+
+.product p {
+    color: #666;
+    margin: 10px 0;
+}
+
+.product .price {
+    color: #ff6600; /* Orange vif */
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.product button {
+    background-color: #003366; /* Bleu sombre */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #ff6600; /* Orange vif */
+}
+
+/* Footer */
+footer {
+    background-color: #003366; /* Bleu sombre */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
