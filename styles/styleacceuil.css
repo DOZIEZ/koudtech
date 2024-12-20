@@ -234,7 +234,7 @@ nav ul li a {
 
  .img img{
     
-        max-width: 90%; /* Limite la largeur à 100% du conteneur */
+        max-width:100%; 
         height: auto; /* Ajuste automatiquement la hauteur */
         display: block; /* Évite les espaces blancs sous l'image */
     
